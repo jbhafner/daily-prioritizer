@@ -2,7 +2,7 @@
 
 This is a daily planner and prioritizer I have used for many years to help plan my work day.
 
-## I cover five main areas + 1:
+## I cover five main areas:
 ----------------------------------------------------
 1. **Rethink - What are the major issues that I need to focus on today?**
     - BIG PICTURE - These are things like commit daily-prioritizer to github, continue my job search, speak to Jean about performance issues
