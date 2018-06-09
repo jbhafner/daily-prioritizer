@@ -24,7 +24,7 @@ Back in the early 2000s, when I was still living and working in Tokyo, I did a B
 
 Technology:
 ----------------------------------------------------
-I intend to make this a full-stack Javascript app with a MongoDB backend to persist data.  As of now, it stores data in localStorage, so it repopulate items you have entered if you open the link on the same computer.  I have used jQuery and the Materialize front-end library which is based on Google Material Design.
+I intend to make this a full-stack Javascript app with a MongoDB backend to persist data.  As of now, it stores data in localStorage, so it repopulates items you have entered if you open the link on the same computer.  I have used jQuery and the Materialize front-end library which is based on Google Material Design.
 
 Materialize Library - https://materializecss.com/
 
