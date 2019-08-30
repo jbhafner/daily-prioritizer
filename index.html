@@ -14,10 +14,10 @@
 </head>
 
 <body>
-   <div class="container">
+   <div class="container" >
       <div class="card-panel">
          <h1>Daily Review</h1>
-         <p>Title or Logo goes here</p>
+         <p>What is your focus for today?</p>
       </div>
 
       <nav>
@@ -25,18 +25,18 @@
             <a href="#" class="brand-logo"> Daily Prioritizer</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                <li>
-                  <a href="#">Link 1</a>
+                  <a id="clearAllBtn">Clear All</a>
                </li>
                <li>
-                  <a href="#">Link 2</a>
+                  <a id="printBtn">Print</a>
                </li>
                <li>
-                  <a href="#">Login</a>
+                  <a id="loginBtn">Login</a>
                </li>
             </ul>
          </div>
       </nav>
-
+      <div id="printArea">
       <div class="divider"></div>
       <div id="rethink-section" class="section">
          <h5>Rethink - What are the major issues that I need to focus on today?</h5>
@@ -273,14 +273,18 @@
                   <div class="input-field col s10 ">
                      <textarea id="must-do-item" class="materialize-textarea " placeholder="Today 's MUST-DO Item!"></textarea>
                   </div>
+              
                </div>
             </div>
+         </div>
+         <!-- close printArea-->
          </div>
          <!-- close container-->
 
          <!--JavaScript at end of body for optimized loading-->
          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
          <script type="text/javascript" src="scripts.js"></script>
+         <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
 </body>
 
 </html>
