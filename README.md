@@ -31,4 +31,4 @@ Materialize Library - https://materializecss.com/
 Screenshot for Daily Prioritizer:
 --------------------------------
 
-<img src="DailyReviewScreenCapture.PNG">
+<img src="DailyReviewScreenCapture2.PNG">
