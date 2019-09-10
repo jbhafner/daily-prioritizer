@@ -1,6 +1,6 @@
 # Daily Prioritizer
 
-Live URL: http://brianhafnertech.com/Apps/daily-review/
+Live URL: <a href="http://brianhafnertech.com/Apps/daily-review/" target="_blank">example</a>
 
 This is a daily planner and prioritizer I have used for many years to help plan my work day.
 
