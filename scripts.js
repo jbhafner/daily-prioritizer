@@ -1,6 +1,10 @@
 $("document").ready(function() {
   console.log("scripts.js connected!");
 
+//   html2canvas(document.body).then(function(canvas) {
+//     document.body.appendChild(canvas);
+// });
+
   // Update all items from local storage on loading
   const inputs = document.querySelectorAll("textarea");
   inputs.forEach(updateAll);
@@ -34,7 +38,7 @@ $("document").ready(function() {
   let printBtn = document.querySelector("#printBtn");
   printBtn.addEventListener("click", function(event) {
     event.preventDefault();
-    printPage();
+    printPDF();
   });
   console.log('clearAllBtn', clearAllBtn);
   console.log("inputs", inputs);
@@ -72,3 +76,32 @@ function clearAll(item) {
 function printPage() {
   printJS('printArea', 'html');
 };
+
+
+// function printPDF() {
+//   const filename  = 'DailyReviewSheet.pdf';
+//   console.log('printPDF called');
+//   html2canvas(document.querySelector('#printArea')).then(canvas => {
+//     let pdf = new jsPDF('p', 'mm', 'a4');
+//     pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 211, 298);
+//     pdf.save(filename);
+//   });
+// }
+
+function printPDF(quality = 1) {
+  const filename  = 'MyDailyReview.pdf';
+  margins = {
+    top: 40,
+    bottom: 40,
+    left: 20,
+    right: 20
+  }
+
+  html2canvas(document.querySelector('#printArea'), 
+              {scale: quality}
+           ).then(canvas => {
+    let pdf = new jsPDF('p', 'mm', 'letter');
+    pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 10, 10, 216, 279);
+    pdf.save(filename);
+  });
+}
