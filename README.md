@@ -30,6 +30,12 @@ I intend to make this a full-stack Javascript app with a MongoDB backend to pers
 
 Materialize Library - https://materializecss.com/
 
+I use html2canvas and jsPDF to print out a pdf of the daily planner.
+http://html2canvas.hertzen.com/documentation
+https://mrrio.github.io/
+
+
+
 Screenshot for Daily Prioritizer:
 --------------------------------
 
