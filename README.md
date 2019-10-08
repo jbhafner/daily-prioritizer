@@ -33,6 +33,7 @@ Materialize Library - https://materializecss.com/
 I use html2canvas and jsPDF to print out a pdf of the daily planner.
 
 http://html2canvas.hertzen.com/documentation
+
 https://mrrio.github.io/
 
 
